@@ -33,19 +33,6 @@ This is a **Kotlin Multiplatform (KMM) project** demonstrating how to use **Room
 │   ├── AppViewModel.kt # ViewModel (State Management)
 ```
 
-## 📸 Screenshots
-
-Here are some screenshots of the project running on different platforms:
-
-### Android
-![Android Screenshot](screenshots/android.png)
-
-### iOS
-![iOS Screenshot](screenshots/ios.png)
-
-### Desktop
-![Desktop Screenshot](screenshots/desktop.png)
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
@@ -78,6 +65,19 @@ cd KotlinMultiplatformRoomSample
 
 - Select `desktop` configuration in Android Studio
 - Click **Run** ▶️
+
+## 📸 Screenshots
+
+Here are some screenshots of the project running on different platforms:
+
+### Android
+![Android Screenshot](screenshots/android.png)
+
+### iOS
+![iOS Screenshot](screenshots/ios.png)
+
+### Desktop
+![Desktop Screenshot](screenshots/desktop.png)
 
 ## 🏷️ Suggested GitHub Tags
 
