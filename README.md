@@ -71,7 +71,7 @@ cd KotlinMultiplatformRoomSample
 Here are some screenshots of the project running on different platforms:
 
 ### Android
-![Android Screenshot](screenshots/android.png)
+![Android Screenshot](screenshots/android.png){: width="300" }
 
 ### iOS
 ![iOS Screenshot](screenshots/ios.png)
