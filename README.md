@@ -1,21 +1,94 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
+# Kotlin Multiplatform Room Sample
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+This is a **Kotlin Multiplatform (KMM) project** demonstrating how to use **Room Database** across **Android, iOS, and Desktop** platforms.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## 📌 Features
 
+- **Kotlin Multiplatform** support
+- **Room Database** for data persistence
+- **Koin Dependency Injection**
+- **Jetpack Compose UI for Android, iOS, and Desktop**
+- **Coroutines & Flow** for async operations
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## 🛠️ Tech Stack
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+- **Kotlin Multiplatform (KMM)**
+- **Room Database** (KMM-supported)
+- **Jetpack Compose** (Android, Desktop UI)
+- **Koin** (Dependency Injection)
+- **Room Database** is used on **Android, iOS, and Desktop** with SQLite as the underlying storage.
+- **Kotlin Coroutines & Flow** (Reactive Data Handling)
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+## 📦 Project Structure
+
+```
+├── androidMain/    # Android-specific implementation
+├── iosMain/        # iOS-specific implementation
+├── desktopMain/    # Desktop-specific implementation
+├── commonMain/     # Shared Kotlin Multiplatform Code
+│   ├── db/         # Room Database & DAO (Shared across platforms)
+│   ├── repository/ # Repository Layer
+│   ├── di/         # Dependency Injection (Koin)
+│   ├── App.kt      # Compose UI
+│   ├── AppViewModel.kt # ViewModel (State Management)
+```
+
+## 📸 Screenshots
+
+Here are some screenshots of the project running on different platforms:
+
+### Android
+![Android Screenshot](screenshots/android.png)
+
+### iOS
+![iOS Screenshot](screenshots/ios.png)
+
+### Desktop
+![Desktop Screenshot](screenshots/desktop.png)
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/ArtsiomBulatkin/KotlinMultiplatformRoomSample.git
+cd KotlinMultiplatformRoomSample
+```
+
+### 2️⃣ Open in Android Studio
+
+- Open **Android Studio** (latest stable version with KMM support)
+- Select "**Open an Existing Project**"
+- Choose the cloned repository folder
+- Let Gradle sync the project
+
+### 3️⃣ Run on Different Platforms
+
+#### ✅ **Android**
+
+- Select `composeApp` configuration
+- Click **Run** ▶️ in Android Studio
+
+#### ✅ **iOS**
+
+- Open `iosApp` in **Xcode**
+- Run on **iOS Simulator**
+
+#### ✅ **Desktop**
+
+- Select `desktop` configuration in Android Studio
+- Click **Run** ▶️
+
+## 🏷️ Suggested GitHub Tags
+
+- `Kotlin`
+- `Kotlin-Multiplatform`
+- `KMM`
+- `Room-Database`
+- `Android`
+- `iOS`
+- `Desktop`
+- `Jetpack-Compose`
+- `SQLite`
+- `Coroutines`
+- `Flow`
