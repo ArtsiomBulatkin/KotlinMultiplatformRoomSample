@@ -74,10 +74,10 @@ Here are some screenshots of the project running on different platforms:
 <img src="screenshots/android.png" style="width: 50%" alt="Android Screenshot">
 
 ### iOS
-![iOS Screenshot](screenshots/ios.png)
+<img src="screenshots/ios.png" style="width: 50%" alt="iOS Screenshot">
 
 ### Desktop
-![Desktop Screenshot](screenshots/desktop.png)
+<img src="screenshots/desktop.png" style="width: 50%" alt="Desktop Screenshot">
 
 ## 🏷️ Suggested GitHub Tags
 
