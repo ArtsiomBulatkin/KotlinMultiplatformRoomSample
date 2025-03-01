@@ -10,8 +10,8 @@
 
 ## 🛠️ Tech Stack
 
-- **Kotlin Multiplatform (KMM)**
-- **Room Database** (KMM-supported)
+- **Kotlin Multiplatform (KMP)**
+- **Room Database** (KMP-supported)
 - **Jetpack Compose** (Android, Desktop UI)
 - **Koin** (Dependency Injection)
 - **Room Database** is used on **Android, iOS, and Desktop** with SQLite as the underlying storage.
@@ -42,7 +42,7 @@ cd KotlinMultiplatformRoomSample
 
 ### 2️⃣ Open in Android Studio
 
-- Open **Android Studio** (latest stable version with KMM support)
+- Open **Android Studio** (latest stable version with KMP support)
 - Select "**Open an Existing Project**"
 - Choose the cloned repository folder
 - Let Gradle sync the project
@@ -81,7 +81,7 @@ Here are some screenshots of the project running on different platforms:
 
 - `Kotlin`
 - `Kotlin-Multiplatform`
-- `KMM`
+- `KMP`
 - `Room-Database`
 - `Android`
 - `iOS`
