@@ -1,7 +1,5 @@
 # Kotlin Multiplatform Room Sample
 
-This is a **Kotlin Multiplatform (KMM) project** demonstrating how to use **Room Database** across **Android, iOS, and Desktop** platforms.
-
 ## 📌 Features
 
 - **Kotlin Multiplatform** support
